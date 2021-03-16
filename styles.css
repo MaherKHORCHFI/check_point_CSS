@@ -1,0 +1,72 @@
+  body {
+    background-image: url("develop.png");
+    background-size: cover;}
+   
+    ul {
+      list-style-type: none;
+      width: 100%;
+      background-color:whitesmoke;
+      overflow: auto;
+      }
+      li {
+      display: inline;
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      text-align: left;
+      font-size: 20px;
+      width: 23%
+      }
+      li a:hover {
+        background-color:grey;
+      }
+    h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 60px;
+      color:whitesmoke;
+      text-align: center;}
+    h2 {
+      font-family: cursive;
+      font-size: 40px;
+      color:whitesmoke;
+      text-align: left;}
+    p,label{
+        font-family: cursive;
+        font-size: 20px;
+        color:white;
+        text-align:center;
+        text-align: justify;
+        }
+      dt{
+        font-family: cursive;
+        font-size: 20px;
+        color:white;
+        text-align:left;
+        }
+      dd,footer{
+        font-family: cursive;
+        font-size: 20px;
+        color:white;
+        text-align:center;
+        }
+        iframe{
+        position: absolute;
+        top: 250px;
+        right: 0;
+        width: 415px;
+        height: 320px;
+        border: 3px solid whitesmoke;
+      }
+      .center {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        border: 3px solid grey;   }
+      label {
+        line-height: 200px;
+        height: 200px;
+        border: 3px solid gray;
+        text-align: center;
+        }
